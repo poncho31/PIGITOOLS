@@ -72,7 +72,7 @@ class Log{
     }
 
 	public static function dump($message){
-		if(config('app.debug_api')){
+		if(config('pigitools.debug_api')){
 			dump($message);
 		}
 	}

@@ -77,7 +77,7 @@ class Mail {
             // Content
             $mail->isHTML(true);                                // Set email format to HTML
             $mail->CharSet = 'UTF-8';
-            $mail->Subject = (config('app.debug') ? "TEST DEBUG "  :  ""). $mailSubject;
+            $mail->Subject = (config('pigitools.debug') ? "TEST DEBUG "  :  ""). $mailSubject;
             $mail->Body    = $mailBody;
             $isMailSend = $mail->Send();
 
@@ -189,7 +189,7 @@ class Mail {
      */
     private static function mail_parser(array|string|null $mail): array
      {
-        $mailDebugOrProd = config('app.debug') ? config('mail.to.test'): $mail; // Si app_debug true alors envoie à test@test.com
+        $mailDebugOrProd = config('pigitools.debug') ? config('mail.to.test'): $mail; // Si app_debug true alors envoie à test@test.com
         $arrayMail = array_merge((
             !is_array($mailDebugOrProd)?explode(';',$mailDebugOrProd): $mailDebugOrProd),
             [config('mail.to.test')] // Ajout du mail test@test.com dans tous les cas
