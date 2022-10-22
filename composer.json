@@ -6,10 +6,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "ext-fileinfo": "*",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "php-imap/php-imap": "^5.0",
+        "phpmailer/phpmailer": "^6.6",
+        "reliese/laravel": "^1.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
