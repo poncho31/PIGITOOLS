@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Pigitools\Http\Middleware;
 
-use App\Providers\RouteServiceProvider;
+use Pigitools\Providers\RouteServiceProvider;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

@@ -1,5 +1,5 @@
 <?php
-namespace App\Models;
+namespace Pigitools\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
@@ -24,7 +24,7 @@ use Reliese\Database\Eloquent\Model as Eloquent;
  * @property Carbon $created_at
  * @property Carbon $updated_at
  *
- * @package App\Models\Entities
+ * @package Pigitools\Models\Entities
  * @mixin Builder
  */
 class MailModel extends Eloquent

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Sources\Mails;
+namespace Pigitools\Sources\Mails;
 
-use App\Models\MailModel;
-use App\Sources\Converter\Converter;
-use App\Sources\Logs\Log;
+use Pigitools\Models\MailModel;
+use Pigitools\Sources\Converter\Converter;
+use Pigitools\Sources\Logs\Log;
 use PhpImap\Mailbox;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\PHPMailer;

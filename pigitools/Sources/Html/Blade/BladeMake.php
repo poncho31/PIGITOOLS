@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Sources\Html\Blade;
+namespace Pigitools\Sources\Html\Blade;
 
 use Illuminate\Support\Facades\Gate;
 

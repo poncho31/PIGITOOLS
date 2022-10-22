@@ -189,11 +189,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Pigitools\Providers\AppServiceProvider::class,
+        Pigitools\Providers\AuthServiceProvider::class,
+        // Pigitools\Providers\BroadcastServiceProvider::class,
+        Pigitools\Providers\EventServiceProvider::class,
+        Pigitools\Providers\RouteServiceProvider::class,
 
     ],
 
@@ -209,7 +209,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'ExampleClass' => App\Example\ExampleClass::class,
+        // 'ExampleClass' => Pigitools\Example\ExampleClass::class,
     ])->toArray(),
 
 ];

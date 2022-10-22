@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Sources\Logs;
+namespace Pigitools\Sources\Logs;
 
-//use App\Events\BroadcastEventToUserNow;
-use App\Models\Logs;
+//use Pigitools\Events\BroadcastEventToUserNow;
+use Pigitools\Models\Logs;
 
 class Log{
 

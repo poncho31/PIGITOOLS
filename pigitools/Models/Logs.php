@@ -5,7 +5,7 @@
  * Date: Mon, 16 Dec 2019 12:56:02 +0000.
  */
 
-namespace App\Models;
+namespace Pigitools\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
@@ -24,7 +24,7 @@ use Reliese\Database\Eloquent\Model as Eloquent;
  * @property string $exception
  * @property int $ligne
  *
- * @package App\Models\Entities
+ * @package Pigitools\Models\Entities
  * @mixin Builder
  */
 class Logs extends Eloquent
